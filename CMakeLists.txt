@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.10)
+project(cpp_wangguilin)
+
+set(CMAKE_CXX_STANDARD 11)
+
+
+add_executable(demo01-type_enhance day01/demo01-type_enhance.cpp)
+add_executable(demo02-bool day01/demo02-bool.cpp)
+add_executable(demo03-enum day01/demo03-enum.cpp)
+add_executable(demo04-expression-assign day01/demo04-expression_assign.cpp)
+add_executable(demo05-nullptr day01/demo05-nullptr.cpp)
+add_executable(demo06-cin_cout day01/demo06-cin_cout.cpp)
+add_executable(demo07-cout_format day01/demo07-cout_format.cpp)
+add_executable(demo08-func_overload day01/demo08-func_overload.cpp)
+add_executable(main day01/demo09-externc/main.cpp)
+add_executable(mystr day01/demo09-externc/mystr.cpp)
+
+add_executable(demo10-operator_overload day01/demo10-operator_overload.cpp)
+add_executable(demo11-default_args day01/demo11-default_args.cpp)
+add_executable(demo12-overload_default_args_conflict day01/demo12-overload_default_args_conflict.cpp)
+add_executable(demo13-ref day01/demo13-ref.cpp)
+add_executable(demo14-ref_application day01/demo14-ref_application.cpp)
+add_executable(demo15-pointer_ref day01/demo15-pointer_ref.cpp)
+add_executable(demo16-ref_pointer day01/demo16-ref_pointer.cpp)
+add_executable(demo17-pointer_pointer_and_ref_ref day01/demo17-pointer_pointer_and_ref_ref.cpp)
+add_executable(demo18-pointer_ref_arr day01/demo18-pointer_ref_arr.cpp)
+add_executable(demo19-array_ref day01/demo19-array_ref.cpp)
+add_executable(demo01-review day02/demo01-review.cpp)

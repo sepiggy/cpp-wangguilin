@@ -3,12 +3,12 @@
 using namespace std;
 
 int
-main ()
+main()
 {
-  char buf[1024];
-  cin >> buf;
+    char buf[1024];
+    cin >> buf;
 
-  cout << buf << endl;
+    cout << buf << endl;
 
-  return 0;
+    return 0;
 }

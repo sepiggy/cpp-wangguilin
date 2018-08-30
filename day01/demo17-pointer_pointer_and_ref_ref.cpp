@@ -8,18 +8,18 @@ using namespace std;
 #endif
 
 int
-main ()
+main()
 {
-  int i = 100;
-  int *p = &i;
-  int **pp = &p;
-  int ***ppp = &pp;
-  int ****pppp = &ppp;
+    int i = 100;
+    int *p = &i;
+    int **pp = &p;
+    int ***ppp = &pp;
+    int ****pppp = &ppp;
 
-  int &ra = i;
-  int &rb = ra;
-  int &rc = rb;
+    int &ra = i;
+    int &rb = ra;
+    int &rc = rb;
 //  int &&rra = ra; // error
 
-  return 0;
+    return 0;
 }

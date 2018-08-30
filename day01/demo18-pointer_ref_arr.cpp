@@ -7,11 +7,11 @@ using namespace std;
 #endif
 
 int
-main ()
+main()
 {
-  int a, b, c;
-  int *p[] = {&a, &b, &c};
-  int &q[] = {a, b, c}; // error
+    int a, b, c;
+    int *p[] = {&a, &b, &c};
+    int &q[] = {a, b, c}; // error
 
-  return 0;
+    return 0;
 }

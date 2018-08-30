@@ -9,15 +9,15 @@ using namespace std;
 #endif
 
 int
-main ()
+main()
 {
-  int a;
-  int *pa = &a; // 指针
-  int &ra = a;  // 引用
-  int *&par = pa;    // 指针的引用
-  int &*rap = &ra;   // 引用的指针 error!
+    int a;
+    int *pa = &a; // 指针
+    int &ra = a;  // 引用
+    int *&par = pa;    // 指针的引用
+    int &*rap = &ra;   // 引用的指针 error!
 
-  return 0;
+    return 0;
 };
 
 

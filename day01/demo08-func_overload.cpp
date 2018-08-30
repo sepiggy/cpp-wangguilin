@@ -17,23 +17,23 @@ using namespace std;
 #endif
 
 int
-abs (int a)
+abs(int a)
 {
-  return a > 0 ? a : -a;
+    return a > 0 ? a : -a;
 }
 
 float
-abs (float a)
+abs(float a)
 {
-  return a > 0 ? a : -a;
+    return a > 0 ? a : -a;
 }
 
 int
-main ()
+main()
 {
-  cout << abs (-5) << endl;
-  cout << abs (-5.3f) << endl;
-  return 0;
+    cout << abs(-5) << endl;
+    cout << abs(-5.3f) << endl;
+    return 0;
 }
 
 #if 0

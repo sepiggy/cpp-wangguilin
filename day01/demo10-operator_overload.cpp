@@ -7,35 +7,35 @@ using namespace std;
 #endif
 
 typedef struct _pos {
-  int x_;
-  int y_;
+    int x_;
+    int y_;
 } Pos;
 
-bool operator== (Pos one, Pos another)
+bool operator==(Pos one, Pos another)
 {
-  if (one.x_ == another.x_ && one.y_ == another.y_)
-    {
-      return true;
-    }
-  else
-    {
-      return false;
-    }
+    if(one.x_ == another.x_ && one.y_ == another.y_)
+        {
+            return true;
+        }
+    else
+        {
+            return false;
+        }
 }
 
-int main ()
+int main()
 {
-  Pos ps = {1, 2};
+    Pos ps = {1, 2};
 //  Pos fdPs = {3, 4};
-  Pos fdPs = {1, 2};
+    Pos fdPs = {1, 2};
 
-  if (ps == fdPs)
-    {
-      cout << "==" << endl;
-    }
-  else
-    {
-      cout << "!=" << endl;
-    }
-  return 0;
+    if(ps == fdPs)
+        {
+            cout << "==" << endl;
+        }
+    else
+        {
+            cout << "!=" << endl;
+        }
+    return 0;
 }

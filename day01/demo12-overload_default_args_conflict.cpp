@@ -7,20 +7,20 @@ using namespace std;
 #endif
 
 void
-func (int a)
+func(int a)
 {
 
 }
 
 void
-func (int a, int b = 3)
+func(int a, int b = 3)
 {
 
 }
 
-int main ()
+int main()
 {
-  func (1, 2);
-  // func (3); // conflict
-  return 0;
+    func(1, 2);
+    // func (3); // conflict
+    return 0;
 }

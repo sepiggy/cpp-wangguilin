@@ -11,25 +11,25 @@ using namespace std;
 #endif
 
 int
-main ()
+main()
 {
-  int a = 100;
-  int &ra = a;
+    int a = 100;
+    int &ra = a;
 
-  cout << "a = " << a << endl;
-  cout << "ra = " << ra << endl;
-  cout << "&a = " << &a << endl;
-  cout << "&ra = " << &ra << endl;
-  cout << "sizeof(a) = " << sizeof(a) << endl;
-  cout << "sizeof(ra) = " << sizeof(a) << endl;
+    cout << "a = " << a << endl;
+    cout << "ra = " << ra << endl;
+    cout << "&a = " << &a << endl;
+    cout << "&ra = " << &ra << endl;
+    cout << "sizeof(a) = " << sizeof(a) << endl;
+    cout << "sizeof(ra) = " << sizeof(a) << endl;
 
 //  int b;
 //  int &ra = b;
 
-  // a, ra, xra, yra, zra 之间是平行关系
-  int &xra = a;
-  int &yra = a;
-  int &zra = yra;
+    // a, ra, xra, yra, zra 之间是平行关系
+    int &xra = a;
+    int &yra = a;
+    int &zra = yra;
 
-  return 0;
+    return 0;
 }

@@ -8,35 +8,35 @@ using namespace std;
 
 // 用指针做参数
 void
-mySwap (int *pa, int *pb)
+mySwap(int *pa, int *pb)
 {
-  int t = *pa;
-  *pa = *pb;
-  *pb = t;
+    int t = *pa;
+    *pa = *pb;
+    *pb = t;
 }
 
 // 用引用做参数
 void
-mySwap (int &ra, int &rb)
+mySwap(int &ra, int &rb)
 {
-  int t = ra;
-  ra = rb;
-  rb = t;
+    int t = ra;
+    ra = rb;
+    rb = t;
 }
 
 int
-main ()
+main()
 {
-  int a = 3;
-  int b = 5;
+    int a = 3;
+    int b = 5;
 
-  mySwap (a, b);
-  cout << "a=" << a << ", b=" << b << endl;
-  a = 3;
-  b = 5;
+    mySwap(a, b);
+    cout << "a=" << a << ", b=" << b << endl;
+    a = 3;
+    b = 5;
 
-  mySwap (&a, &b);
-  cout << "a=" << a << ", b=" << b << endl;
+    mySwap(&a, &b);
+    cout << "a=" << a << ", b=" << b << endl;
 
-  return 0;
+    return 0;
 }
